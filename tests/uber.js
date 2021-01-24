@@ -1,4 +1,4 @@
-describe('Ecosia example', function() {
+describe('Ecosia', function() {
 
     beforeEach(browser => browser.url('https://www.ecosia.org/'));
 
