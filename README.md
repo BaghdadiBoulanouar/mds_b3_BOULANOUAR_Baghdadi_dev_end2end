@@ -1,5 +1,12 @@
-Pour lancer les tests :
+# tests_end_to_end
+Tests end to end
 
-Revoir le fichier package.json :
+# Install package
+npm i 
+npm install
 
-> ./node_modules/.bin/nightwatch ./tests/uber.js
+# Launch test
+npm test 
+
+# Connexion Browserstack
+A changer dans nightwatch.conf.js
