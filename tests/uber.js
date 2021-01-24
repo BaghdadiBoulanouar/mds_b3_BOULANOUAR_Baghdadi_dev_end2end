@@ -1,7 +1,7 @@
 describe('Uber', function() {
 
     beforeEach(browser => browser.url('https://www.uber.com/fr/fr/'));
-/*
+
     test('Open Uber Website', function (browser) {
       browser
         .useXpath()
@@ -65,7 +65,7 @@ describe('Uber', function() {
         .waitForElementPresent('//*[@id="root"]/div/div/div[2]/div/div[3]/div/div[2]/div/section/div/div/div/div/div[3]/a/div[2]')
         .end();
     });
-*/
+
     test('Check Registration block with Devenir Professional section', function (browser) {
       browser
         .useXpath()
